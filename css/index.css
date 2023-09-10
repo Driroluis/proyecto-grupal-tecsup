@@ -1,5 +1,6 @@
 body{
-    min-height: 100vh;
+    
+    min-height: 10vh;
     margin: 0;
     background-image: url('../img/fondo1.jpg');
     background-size: cover;
@@ -11,9 +12,120 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 80px;
+
 }
 
 main{
     color: aliceblue;
+    text-align: center;
+    max-width: 600px;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-main{
+    height: 450px;
+}
+
+#main-header {
+    background: #333;
+    color: white;
+    height: 80px;
+
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0;
+    /* Posicionamos la cabecera al lado izquierdo */
+    top: 0;
+    /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    /* Hacemos que la cabecera tenga una posición fija */
+}
+
+#main-header a {
+    color: white;
+}
+
+/*
+ * Logo
+ */
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+
+#logo-header:hover {
+    color: #0b76a6;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+
+
+/*
+ * Navegación
+ */
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #0b76a6;
+}
+
+
+
+
+#main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    margin-top: 500px;
     
+    width: 100%;
+    /* hacemos que la cabecera ocupe el ancho completo de la página */
+    top: 1000;
+    /* Posicionamos la cabecera pegada arriba */
+}
+
+#main-footer p {
+    margin: 0;
+}
+
+#main-footer a {
+    color: white;
 }
