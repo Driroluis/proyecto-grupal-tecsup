@@ -1,0 +1,14 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: monospace;
+    color: var(--primary-text-color);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
