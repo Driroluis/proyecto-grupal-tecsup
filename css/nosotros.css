@@ -1,6 +1,6 @@
 body{
     
-    min-height: 10vh;
+    min-height: 100vh;
     margin: 0;
     background-image: url('../img/fondo1.jpg');
     background-size: cover;
@@ -12,23 +12,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 80px;
-
+    padding-top: 100px;
 }
 
-main{
-    color: aliceblue;
-    text-align: center;
-    max-width: 600px;
-    padding: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-#img-main{
-    height: 450px;
-}
 
 #main-header {
     background: #333;
@@ -105,7 +92,74 @@ nav ul li a:hover {
     background: #0b76a6;
 }
 
+article{
+    font-weight: 700;
+    max-width: 400px;
+    padding: 16px;
+    margin: 16px;
+    background-color: rgba(0, 0, 0, 0.505);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow:
+    0 0 4px 2px rgba(255, 255, 255, 0.5),
+    0 0 8px 4px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 
+img{
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 0 16px 0 rgba(255, 255, 255, 0.8);
+}
+
+h1,
+h2,
+p{
+    margin: 0;
+}
+
+h2,
+span{
+    color: #0b0b1c;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    color: #0b0b1c;
+    font-size: 18px;
+}
+
+p{
+    font-size: 13px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.skill{
+    background-color: #15153b;
+    padding: 4px 16px;
+    border-radius: 16px;
+}
+
+a{
+    font-size:24px;
+    color: rgb(242, 222, 222);
+}
 
 
 #main-footer {
@@ -129,4 +183,3 @@ nav ul li a:hover {
 #main-footer a {
     color: white;
 }
-
